@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.active-wrapper{
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.imgholder{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.active-wrapper h1, h2{
+  font-family: sans-serif;
+}
+
+.active-container{
+  margin-top: 20px;
+}
+
+.active-container h2{
+  margin: 10px auto;
+}
+
+.bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 100px;
+  background-color: rgb(223, 230, 243);
+  border-radius: 5px;
+}
+
+.bar h3{
+  padding: 2.5px 100px;
+  border-radius: 5px;
+}
+
+#activetext{
+  
+  background-color: rgb(255, 255, 255);
+  color: blue;
+}
+#completedtext{
+  color: rgb(51, 51, 51);
+}
+
+#activetext:hover{
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+#completedtext:hover{
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+.ordersummary {
+  margin: auto;
+  width: 100%;
+}
+
+.orderwrapper{
+  margin-top: 20px;
+}
+
+.order{
+  padding: 10px 100px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px rgb(207, 207, 207);
+}
+
+.order hr{
+  margin-top: 5px;
+}
+
+.order h4, h5, p{
+  margin: 8px 2px;
+}
+
+.order p{
+  color: blue;
+}
+
+.price h3{
+  color: blue;
+}
+
+.detailwrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.trackbar{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trackbar button{
+  padding:8px 50px;
+  font-weight: 800;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: white;
+  transition: 0.5s;
+}
+
+.trackbar button:hover{
+  cursor: pointer;
+  color: teal;
+  background-color: white;
+  transition: 1s;
+}
+
+.otherholder{
+  border-top: 2px solid rgb(218, 218, 218);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.diceimg{
+  padding-top: 2px;
+  border-radius: 2px;
+  border-top: 4px solid rgb(96, 96, 255);
+}
+
+@media (max-width: 1000px){
+  .active-wrapper{
+    width: 95%;
+    transition: 0.3s;
+  }
+  .bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .bar h3{
+    padding: 2.5px 6px;
+    border-radius: 5px;
+  }
+  .order{
+    padding: 10px;
+  }
+  .trackbar button{
+    padding:4px 10px;
+    font-weight: 800;
+    font-size: .8em;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+  }
+}
+
+
+.hede{
+  margin-top: 20px;
+  display: flex;
+  padding: 10px 15px;
+  background-color: blue;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  color: white;
+}
+.headdetails{
+  margin-left: 15px;
+}
+
+.hede img{
+  object-fit: contain;
+}
+
+.headdetails h3, h4{
+  margin-top: 5px;
+}
+
+.process{
+  color: rgb(0, 255, 0);
+}
+
+.description{
+  display: flex;
+  justify-content: space-between;
+}
+.description h4{
+  font-size: 0.8em;
+  padding: 10px 10px;
+}
+.master{
+  text-align: left;
+}
+.masterdetails{
+  text-align: right;
+  color: rgb(122, 122, 122);
+}
+
+.purchaseprotection{
+  background-color: rgb(196, 230, 241);
+  text-align: center;
+  padding:2px 5px;
+  font-size: 0.7em;
+  color: rgb(107, 107, 107);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.payment{
+  margin-top: 20px;
+}
+.payment h6{
+  color: rgb(126, 126, 126);
+}
+
+.mainwrapper{
+  margin-bottom: 500px;
+}
+
+#strike{
+  text-decoration: line-through;
+}
